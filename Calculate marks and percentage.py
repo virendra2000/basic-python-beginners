@@ -1,0 +1,10 @@
+m1=float(input('Enter marks of Subject 1'))
+m2=float(input('Enter marks of Subject 2'))
+m3=float(input('Enter marks of Subject 3'))
+m4=float(input('Enter marks of Subject 4'))
+m5=float(input('Enter marks of Subject 5'))
+sum=float(m1+m2+m3+m4+m5)
+avg=sum/5
+percentage=round((sum/500)*100,2)
+print('Average :',avg)
+print('Percentage :',percentage)
